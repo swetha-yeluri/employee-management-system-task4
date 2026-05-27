@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+  height: 100vh;
+  font-family: Arial;
+  background: white;
+  color: black;
+}
+
+.dark {
+  background: #1e1e1e;
+  color: white;
+}
+
+.sidebar {
+  width: 220px;
+  background: #2f3542;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 10px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.toggle {
+  margin-top: 20px;
+  padding: 8px;
+  cursor: pointer;
+}
